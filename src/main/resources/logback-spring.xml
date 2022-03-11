@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+
+    <!-- ALL<TRACE<DEBUG<INFO<WARN<ERROR<FATAL<OFF -->
+    <logger name="org.hibernate.SQL" level="DEBUG" />
+    <logger name="org.hibernate.tool.hbm2ddl" level="OFF" />
+
+    <logger name="org.springframework" level="INFO"/>
+</configuration>
